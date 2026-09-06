@@ -1,4 +1,4 @@
-import profilePhoto from "../assets/profile.jpg";
+const profilePhoto = `${import.meta.env.BASE_URL}images/profile.jpg`;
 
 // Conteúdo baseado no currículo fornecido. Atualize aqui ao evoluir sua trajetória.
 export const profile = {

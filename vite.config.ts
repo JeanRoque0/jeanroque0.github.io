@@ -1,7 +1,16 @@
-import react from '@vitejs/plugin-react'
-import { defineConfig } from 'vite'
-export default defineConfig({
-  plugins: [react()],
-  // Assets relativos funcionam no domínio raiz e em /nome-do-repositorio/.
-  base: './',
-})
+import react from "@vitejs/plugin-react";
+import { defineConfig, loadEnv } from "vite";
+
+export default defineConfig(({ command, mode, isPreview }) => {
+  const env = loadEnv(mode, process.cwd(), "VITE_");
+  const siteUrl =
+    env.VITE_SITE_URL || "https://jeanroque0.github.io/portfolio/";
+  return {
+    plugins: [react()],
+    base:
+      command === "serve" && !isPreview
+        ? "/"
+        : new URL(siteUrl).pathname.replace(/\/?$/, "/"),
+    build: { assetsInlineLimit: 0 },
+  };
+});

@@ -26,14 +26,14 @@ Minha trajetória passa por **plataformas financeiras, varejo e delivery**. A ex
 
 ## Stack
 
-| Área | Tecnologias e práticas |
-| :--- | :--- |
-| **Backend** | Node.js · TypeScript · PHP · Go · NestJS · Express · Laravel · Symfony |
-| **Dados** | PostgreSQL · MySQL · Redis · TypeORM · Doctrine |
-| **Cloud & DevOps** | AWS · Linux · Docker · Terraform · Terragrunt · Ansible · CI/CD |
-| **Observabilidade** | Prometheus · Grafana · CloudWatch · ELK · Datadog |
-| **Arquitetura** | APIs REST · SOLID · Injeção de dependências · Design Patterns |
-| **Estudos & projetos** | Rust · Selenium WebDriver · C++ |
+| Área                   | Tecnologias e práticas                                                 |
+| :--------------------- | :--------------------------------------------------------------------- |
+| **Backend**            | Node.js · TypeScript · PHP · Go · NestJS · Express · Laravel · Symfony |
+| **Dados**              | PostgreSQL · MySQL · Redis · TypeORM · Doctrine                        |
+| **Cloud & DevOps**     | AWS · Linux · Docker · Terraform · Terragrunt · Ansible · CI/CD        |
+| **Observabilidade**    | Prometheus · Grafana · CloudWatch · ELK · Datadog                      |
+| **Arquitetura**        | APIs REST · SOLID · Injeção de dependências · Design Patterns          |
+| **Estudos & projetos** | Rust · Selenium WebDriver · C++                                        |
 
 ## Projetos em destaque
 
@@ -65,11 +65,11 @@ Exercícios dos fundamentos da linguagem a estruturas de dados, ponteiros, aloca
 
 ## Experiência
 
-| Empresa | Trajetória | Período |
-| :--- | :--- | :--- |
-| **A&3 Tecnologia** | DevOps Engineer Pleno | Fev — Ago 2026 |
-| **MB Labs** | Backend Júnior → DevOps Engineer | Jan 2024 — Nov 2025 |
-| **Pigz** | Estágio Backend → Engenheiro de Software Júnior | Jan 2022 — Dez 2023 |
+| Empresa            | Trajetória                                      | Período             |
+| :----------------- | :---------------------------------------------- | :------------------ |
+| **A&3 Tecnologia** | DevOps Engineer Pleno                           | Fev — Ago 2026      |
+| **MB Labs**        | Backend Júnior → DevOps Engineer                | Jan 2024 — Nov 2025 |
+| **Pigz**           | Estágio Backend → Engenheiro de Software Júnior | Jan 2022 — Dez 2023 |
 
 ## Formação e certificação
 
@@ -92,7 +92,7 @@ Este repositório contém meu site pessoal, desenvolvido com **React + TypeScrip
 
 ![Prévia do portfólio de Jean Roque, com navegação lateral e caminhos para recrutadores e clientes](docs/assets/portfolio-preview.png)
 
-O site tem navegação por áreas, caminhos para recrutadores e clientes, projetos com filtros e detalhes em janela, serviços com contato por e-mail, formação e credencial AWS. O layout se adapta a desktop e celular, com navegação por teclado e suporte à preferência por movimento reduzido.
+O site tem navegação por áreas, caminhos para recrutadores e clientes, projetos com filtros e detalhes em janela, serviços com contato por e-mail, formação e credencial AWS. Cada área tem HTML pré-renderizado e URL própria, mantendo o conteúdo acessível antes de carregar JavaScript. Fontes são servidas localmente. O layout se adapta a desktop e celular, com navegação por teclado e suporte à preferência por movimento reduzido.
 
 ### Executar localmente
 
@@ -105,16 +105,17 @@ npm run dev
 
 Abra o endereço exibido no terminal.
 
-| Comando | Função |
-| :--- | :--- |
-| `npm run dev` | Inicia o servidor de desenvolvimento |
-| `npm run build` | Verifica TypeScript e gera o site em `dist/` |
-| `npm run preview` | Serve o build de produção localmente |
-| `npm run lint` | Executa a análise estática do código |
+| Comando            | Função                                            |
+| :----------------- | :------------------------------------------------ |
+| `npm run dev`      | Inicia o servidor de desenvolvimento              |
+| `npm run build`    | Verifica TypeScript e gera o site em `dist/`      |
+| `npm run preview`  | Serve o build de produção localmente              |
+| `npm run lint`     | Executa a análise estática do código              |
+| `npm run test:e2e` | Verifica navegação, acessibilidade e SEO no build |
 
 ### Personalizar e publicar
 
-Os dados do portfólio ficam em [`src/data/profile.ts`](src/data/profile.ts). A publicação no **GitHub Pages** está preparada em um [workflow do GitHub Actions](.github/workflows/deploy.yml).
+Os dados do portfólio ficam em [`src/data/profile.ts`](src/data/profile.ts), os serviços em [`src/data/services.ts`](src/data/services.ts) e as URLs e descrições de SEO em [`src/data/site.ts`](src/data/site.ts). A publicação no **GitHub Pages** está preparada em um [workflow do GitHub Actions](.github/workflows/deploy.yml).
 
 Para ativar, selecione **GitHub Actions** em **Settings → Pages** e execute o workflow após enviar o projeto para a branch `main`.
 

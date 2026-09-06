@@ -26,3 +26,7 @@ dist-ssr
 /Profile (2).pdf
 
 /docs/conteudo-portfolio.md
+
+.ssr/
+playwright-report/
+test-results/

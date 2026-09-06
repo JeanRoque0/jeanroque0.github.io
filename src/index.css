@@ -1,6 +1,29 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap");
+@font-face {
+  font-family: "DM Sans Variable";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 1000;
+  src: url("@fontsource-variable/dm-sans/files/dm-sans-latin-wght-normal.woff2")
+    format("woff2");
+}
+@font-face {
+  font-family: "Space Grotesk Variable";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 300 700;
+  src: url("@fontsource-variable/space-grotesk/files/space-grotesk-latin-wght-normal.woff2")
+    format("woff2");
+}
 :root {
-  font-family: "DM Sans", sans-serif;
+  --color-background: #080d17;
+  --color-surface: #0d1626;
+  --color-text: #e8eef8;
+  --color-muted: #a7b6cc;
+  --color-subtle: #8d9fb9;
+  --color-border: #21324b;
+  --color-accent: #6ea8fe;
+  --color-link: #8bb8fa;
+  font-family: "DM Sans Variable", sans-serif;
   color: #e8eef8;
   background: #080d17;
   font-synthesis: none;
@@ -51,7 +74,7 @@ p {
 h1,
 h2,
 h3 {
-  font-family: "Space Grotesk", sans-serif;
+  font-family: "Space Grotesk Variable", sans-serif;
 }
 @media (prefers-reduced-motion: reduce) {
   html {

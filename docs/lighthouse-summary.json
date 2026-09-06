@@ -1,0 +1,34 @@
+{
+  "url": "http://127.0.0.1:4175/portfolio/",
+  "fetchTime": "2026-09-06T00:03:40.903Z",
+  "lighthouseVersion": "13.4.1",
+  "environment": "Local preview, simulated mobile throttling; not field data",
+  "scores": {
+    "performance": 99,
+    "accessibility": 100,
+    "best-practices": 100,
+    "seo": 100
+  },
+  "metrics": {
+    "first-contentful-paint": {
+      "value": 1714.6582000000003,
+      "display": "1.7 s"
+    },
+    "largest-contentful-paint": {
+      "value": 1714.6582000000003,
+      "display": "1.7 s"
+    },
+    "total-blocking-time": {
+      "value": 0,
+      "display": "0 ms"
+    },
+    "cumulative-layout-shift": {
+      "value": 0.01588144325024134,
+      "display": "0.016"
+    },
+    "speed-index": {
+      "value": 1714.6582000000003,
+      "display": "1.7 s"
+    }
+  }
+}
