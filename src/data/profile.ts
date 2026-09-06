@@ -5,12 +5,12 @@ export const profile = {
   name: "Jean Roque",
   initials: "JR",
   photo: profilePhoto,
-  role: "Backend Developer · DevOps",
+  role: "Backend Developer · Software Engineer",
   location: "Pernambuco, Brasil",
   description:
-    "Desenvolvo APIs e sistemas com Node.js, TypeScript, PHP e Go. Minha experiência em cloud e DevOps conecta as decisões de código à performance e à confiabilidade em produção.",
+    "Desenvolvo APIs, integrações e sistemas com Node.js, TypeScript, PHP e Go. Meu foco é Backend e Engenharia de Software: implementar funcionalidades, organizar a arquitetura e evoluir aplicações em produção.",
   about:
-    "Atuei em plataformas financeiras, varejo e delivery, do desenvolvimento de funcionalidades à sustentação de ambientes em produção. Trabalho com integrações, bancos de dados e arquitetura de software, com experiência em AWS, automação e observabilidade.",
+    "Atuei em plataformas financeiras, varejo e delivery, desenvolvendo funcionalidades, integrações e regras de negócio. Trabalho com arquitetura de software, bancos de dados e performance, em colaboração com produto, QA e equipes de engenharia.",
   email: "jeanvdsroqu@gmail.com",
   github: "https://github.com/Jean-V0",
   linkedin: "https://www.linkedin.com/in/jean-roque-579a48348/",
@@ -32,24 +32,22 @@ export const profile = {
     },
     {
       number: "02",
-      title: "Cloud & entrega",
+      title: "Arquitetura & qualidade",
       description:
-        "Infraestrutura AWS, containers e pipelines de CI/CD. Automação e padronização para conectar desenvolvimento e operação.",
-      tags: ["AWS", "Docker", "Terraform", "Terragrunt", "Ansible", "Linux"],
+        "Organização e evolução de sistemas com atenção à clareza do código, separação de responsabilidades e facilidade de manutenção.",
+      tags: [
+        "SOLID",
+        "Injeção de dependências",
+        "Design Patterns",
+        "Clean Code",
+      ],
     },
     {
       number: "03",
-      title: "Dados & confiabilidade",
+      title: "Dados & performance",
       description:
-        "Otimização de consultas e APIs, análise de incidentes e observabilidade para entender e evoluir o comportamento dos sistemas.",
-      tags: [
-        "PostgreSQL",
-        "MySQL",
-        "Redis",
-        "Prometheus",
-        "Grafana",
-        "CloudWatch",
-      ],
+        "Modelagem de dados, otimização de consultas e investigação de gargalos em APIs para apoiar a evolução das aplicações.",
+      tags: ["PostgreSQL", "MySQL", "Redis", "TypeORM", "Doctrine"],
     },
   ],
 };
@@ -175,9 +173,16 @@ export const languages = [
   { name: "Inglês", level: "Proficiência profissional limitada" },
 ];
 
+export const projectCategories = [
+  "DevOps",
+  "Backend",
+  "Software Engineer",
+  "Full Stack",
+] as const;
+
 export type Project = {
   title: string;
-  category: "Backend" | "DevOps" | "Automação" | "Estudos";
+  category: (typeof projectCategories)[number];
   description: string;
   tags: string[];
   url: string;
@@ -199,30 +204,5 @@ export const projects: Project[] = [
     ],
     tags: ["Ansible", "Linux", "Self-hosted"],
     url: "https://github.com/Jean-V0/swing-music-playbook",
-  },
-  {
-    title: "Automação web com Rust e Selenium",
-    category: "Automação",
-    description:
-      "Projeto de estudo de automação de navegadores com Rust e Selenium WebDriver, explorando execução de fluxos web e gerenciamento de sessões.",
-    highlights: [
-      "Controle programático do navegador e configuração por variáveis de ambiente.",
-      "Integração com extensão de VPN para cenários de teste e organização do projeto com Cargo.",
-    ],
-    tags: ["Rust", "Selenium", "Cargo", "ChromeDriver"],
-    url: "https://github.com/Jean-V0/twitch-selenium",
-  },
-  {
-    title: "C++ na prática · CFBCursos",
-    category: "Estudos",
-    description:
-      "Exercícios e implementações do curso de C++ do CFBCursos, dos fundamentos da linguagem a estruturas de dados e gerenciamento de memória.",
-    highlights: [
-      "Funções, recursividade, vetores, structs, ponteiros e alocação dinâmica.",
-      "Pilhas, filas, listas, sobrecarga de funções e organização em múltiplos arquivos.",
-    ],
-    note: "Repositório de estudos. O curso não emitia certificado no período em que foi realizado.",
-    tags: ["C++", "Estruturas de dados", "Gerenciamento de memória"],
-    url: "https://github.com/Jean-V0/bfcursos-cpp",
   },
 ];

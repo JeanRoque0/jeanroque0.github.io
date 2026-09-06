@@ -10,13 +10,13 @@ export const services = [
     ],
   },
   {
-    title: "Automação e infraestrutura",
+    title: "Evolução de sistemas backend",
     description:
-      "Provisionamento de aplicações, configuração de ambientes Linux e automação de deploys.",
+      "Implementação de funcionalidades, regras de negócio e melhorias de arquitetura em aplicações backend existentes.",
     deliverables: [
-      "Análise do ambiente e das dependências",
-      "Automação com Ansible, Docker ou Terraform",
-      "Orientações para operação e manutenção",
+      "Entendimento do sistema e dos requisitos",
+      "Implementação e testes das funcionalidades acordadas",
+      "Documentação das mudanças e orientações de manutenção",
     ],
   },
   {

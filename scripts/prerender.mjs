@@ -17,7 +17,7 @@ const person = {
   name: profile.name,
   url: base,
   image: new URL("images/profile.jpg", base).href,
-  jobTitle: "Backend Developer e DevOps",
+  jobTitle: profile.role,
   description: profile.description,
   sameAs: [profile.github, profile.linkedin],
   knowsAbout: [
@@ -36,12 +36,12 @@ for (const page of pages) {
   const metadata = `<link rel="canonical" href="${escape(url)}" />
 <meta property="og:type" content="website" />
 <meta property="og:locale" content="pt_BR" />
-<meta property="og:site_name" content="Jean Roque — Backend & DevOps" />
+<meta property="og:site_name" content="Jean Roque — Backend & Software Engineering" />
 <meta property="og:title" content="${escape(page.title)}" />
 <meta property="og:description" content="${escape(page.description)}" />
 <meta property="og:url" content="${escape(url)}" />
 <meta property="og:image" content="${escape(socialImage)}" />
-<meta property="og:image:alt" content="Portfólio de Jean Roque, Backend Developer e DevOps" />
+<meta property="og:image:alt" content="Portfólio de Jean Roque, Backend Developer e Software Engineer" />
 <meta property="og:image:width" content="1200" /><meta property="og:image:height" content="630" />
 <meta name="twitter:card" content="summary_large_image" />
 <script type="application/ld+json">${JSON.stringify(person).replaceAll("<", "\\u003c")}</script>`;

@@ -36,7 +36,7 @@ export default function App({ activePage = "sobre" }: { activePage?: PageId }) {
               fetchPriority="high"
             />
             <strong>{profile.name}</strong>
-            <span>Backend Developer & DevOps</span>
+            <span>{profile.role}</span>
           </a>
           <p className="sidebar-location">{profile.location}</p>
           <nav aria-label="Navegação principal">
@@ -75,7 +75,7 @@ export default function App({ activePage = "sobre" }: { activePage?: PageId }) {
             <View />
           </div>
           <footer className="workspace-footer">
-            {profile.name} · Backend & DevOps
+            {profile.name} · {profile.role}
           </footer>
         </main>
       </div>

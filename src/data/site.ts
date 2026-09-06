@@ -6,7 +6,7 @@ export const pages = [
     path: "",
     label: "Visão geral",
     icon: "⌂",
-    title: "Jean Roque — Backend Developer & DevOps",
+    title: "Jean Roque — Backend Developer & Software Engineer",
     description:
       "Desenvolvedor Backend com experiência em Node.js, TypeScript, PHP, Go e AWS. Conheça a trajetória, os projetos e os serviços de Jean Roque.",
   },
@@ -24,18 +24,18 @@ export const pages = [
     path: "projetos/",
     label: "Projetos",
     icon: "⌘",
-    title: "Projetos de automação e software — Jean Roque",
+    title: "Projetos — Jean Roque",
     description:
-      "Explore os projetos de Jean Roque: implantação do Swing Music com Ansible, automação web em Rust e Selenium e estudos em C++.",
+      "Conheça o Swing Music Playbook de Jean Roque: implantação automatizada de um music player self-hosted em Linux com Ansible.",
   },
   {
     id: "servicos",
     path: "servicos/",
     label: "Serviços",
     icon: "◇",
-    title: "Serviços de Backend, APIs e DevOps — Jean Roque",
+    title: "Serviços de Backend, APIs e integrações — Jean Roque",
     description:
-      "Desenvolvimento de APIs e integrações, automação de infraestrutura Linux e diagnóstico de performance. Converse com Jean Roque sobre seu projeto.",
+      "Desenvolvimento de APIs e integrações, evolução de sistemas backend e diagnóstico de performance. Converse com Jean Roque sobre seu projeto.",
   },
   {
     id: "formacao",
@@ -53,7 +53,7 @@ export const pages = [
     icon: "↗",
     title: "Contato para oportunidades e projetos — Jean Roque",
     description:
-      "Entre em contato com Jean Roque para oportunidades de Backend e DevOps ou projetos freelance. E-mail, LinkedIn e GitHub.",
+      "Entre em contato com Jean Roque para oportunidades de Backend e Engenharia de Software ou projetos freelance. E-mail, LinkedIn e GitHub.",
   },
 ] as const;
 export type PageId = (typeof pages)[number]["id"];

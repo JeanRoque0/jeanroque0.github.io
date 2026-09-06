@@ -1,4 +1,4 @@
-import { projects } from "../data/profile";
+import { projects, projectCategories } from "../data/profile";
 import { useState } from "react";
 import type { Project } from "../data/profile";
 import { ProjectDialog } from "../components/ProjectDialog";
@@ -7,10 +7,7 @@ import { Tags } from "../components/Tags";
 export function Projects() {
   const [filter, setFilter] = useState("Todos");
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
-  const filters = [
-    "Todos",
-    ...new Set(projects.map((project) => project.category)),
-  ];
+  const filters = ["Todos", ...projectCategories];
   const visibleProjects = projects.filter(
     (project) => filter === "Todos" || project.category === filter,
   );
@@ -25,7 +22,7 @@ export function Projects() {
         >
           <div className="projects-heading">
             <div>
-              <p className="eyebrow">PROJETOS & ESTUDOS</p>
+              <p className="eyebrow">PROJETOS</p>
               <h1 id="projects-title" className="page-title">
                 Engenharia na prática.
               </h1>

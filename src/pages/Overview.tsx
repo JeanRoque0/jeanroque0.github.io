@@ -6,11 +6,11 @@ export function Overview() {
   return (
     <>
       <section className="overview" aria-labelledby="overview-title">
-        <p className="eyebrow">JEAN ROQUE / BACKEND & DEVOPS</p>
+        <p className="eyebrow">JEAN ROQUE / BACKEND & SOFTWARE ENGINEERING</p>
         <h1 id="overview-title">
-          Experiência em código.
+          APIs, integrações e sistemas.
           <br />
-          <span>Contexto de produção.</span>
+          <span>Backend é meu foco.</span>
         </h1>
         <p>{profile.description}</p>
         <div className="audience-paths">
@@ -20,8 +20,8 @@ export function Overview() {
               Conheça minha trajetória <b aria-hidden="true">↗</b>
             </h2>
             <p>
-              Explore cargos, competências e atuação em produtos financeiros,
-              varejo e delivery.
+              Conheça minha experiência para oportunidades de Backend Developer,
+              Backend Engineer e Software Engineer.
             </p>
           </a>
           <a href={pageHref("servicos")}>
@@ -30,8 +30,8 @@ export function Overview() {
               Vamos tirar seu projeto do papel <b aria-hidden="true">↗</b>
             </h2>
             <p>
-              Veja como posso ajudar com backend, integrações, infraestrutura e
-              automação.
+              Veja como posso ajudar com APIs, integrações, evolução de sistemas
+              e diagnóstico de performance.
             </p>
           </a>
         </div>
@@ -40,7 +40,7 @@ export function Overview() {
             <strong>Desde 2022</strong>Trajetória profissional
           </span>
           <span>
-            <strong>Backend + DevOps</strong>Código e infraestrutura
+            <strong>Node.js · PHP · Go</strong>Desenvolvimento backend
           </span>
           <a href={pageHref("formacao")}>
             <strong>AWS Certified</strong>Ver formação e credencial ↗
@@ -55,8 +55,8 @@ export function Overview() {
         <div className="section-heading">
           <p className="eyebrow">ESPECIALIDADES</p>
           <h2 id="about-title">
-            Do endpoint
-            <br />à infraestrutura.
+            Da regra de negócio
+            <br />à arquitetura.
           </h2>
           <p>{profile.about}</p>
         </div>
@@ -70,6 +70,25 @@ export function Overview() {
             </article>
           ))}
         </div>
+        <details className="backend-background">
+          <summary>Experiência complementar em produção e DevOps</summary>
+          <p>
+            Minha experiência em AWS, Docker, Linux, automação e observabilidade
+            complementa o desenvolvimento backend. Ela me ajuda a considerar
+            deploy, performance e confiabilidade nas decisões de código.
+          </p>
+          <Tags
+            items={[
+              "AWS",
+              "Docker",
+              "Linux",
+              "Terraform",
+              "Ansible",
+              "CI/CD",
+              "CloudWatch",
+            ]}
+          />
+        </details>
       </section>
     </>
   );

@@ -84,7 +84,7 @@ test("navigation and repositories work without JavaScript", async ({
   await expect(page).toHaveURL(/\/projetos\/$/);
   await expect(
     page.getByRole("link", { name: "Repositório no GitHub" }),
-  ).toHaveCount(3);
+  ).toHaveCount(1);
   await context.close();
 });
 
@@ -92,17 +92,17 @@ test("filters, modal, focus restoration and background scroll", async ({
   page,
 }) => {
   await page.goto(root + "projetos/");
-  await page.getByRole("button", { name: "Automação", exact: true }).click();
+  await page.getByRole("button", { name: "DevOps", exact: true }).click();
   await expect(page.locator(".project-card")).toHaveCount(1);
   const trigger = page.getByRole("button", {
-    name: "Explorar projeto: Automação web com Rust e Selenium",
+    name: "Explorar projeto: Swing Music: seu próprio music player",
     exact: true,
   });
   await trigger.click();
   const dialog = page.getByRole("dialog");
   await expect(dialog).toBeVisible();
   await expect(dialog).toHaveAccessibleName(
-    "Automação web com Rust e Selenium",
+    "Swing Music: seu próprio music player",
   );
   expect(await page.evaluate(() => document.body.style.overflow)).toBe(
     "hidden",
@@ -120,8 +120,16 @@ test("filters, modal, focus restoration and background scroll", async ({
     .getByRole("button", { name: "Fechar detalhes do projeto" })
     .click();
   await expect(dialog).not.toBeVisible();
+  for (const category of ["Backend", "Software Engineer", "Full Stack"]) {
+    await page.getByRole("button", { name: category, exact: true }).click();
+    await expect(page.locator(".project-card")).toHaveCount(0);
+    await expect(page.locator(".empty-projects")).toBeVisible();
+  }
+  await expect(
+    page.getByRole("button", { name: "Estudos", exact: true }),
+  ).toHaveCount(0);
   await page.getByRole("button", { name: "Todos", exact: true }).click();
-  await expect(page.locator(".project-card")).toHaveCount(3);
+  await expect(page.locator(".project-card")).toHaveCount(1);
 });
 
 test("legacy links, skip link, service briefing and direct reload", async ({
@@ -155,9 +163,7 @@ test("sitemap, unique titles and static file coverage", async () => {
   for (const route of routes) {
     const html = await readFile(`dist/${route}index.html`, "utf8");
     titles.add(html.match(/<title>(.*?)<\/title>/)![1]);
-    expect(sitemap).toContain(
-      `https://jeanroque0.github.io/${route}`,
-    );
+    expect(sitemap).toContain(`https://jeanroque0.github.io/${route}`);
   }
   expect(titles.size).toBe(routes.length);
   expect(await readFile("dist/404.html", "utf8")).toContain("noindex");

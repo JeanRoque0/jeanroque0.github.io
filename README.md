@@ -1,88 +1,96 @@
 <div align="center">
 
-<img src="src/assets/profile.jpg" alt="Foto de Jean Roque" width="100" />
-
 # Jean Roque
 
-**Backend Developer · Software Engineer · DevOps**
+**Backend Developer · Software Engineer**
 
-### Backend sólido. Visão de produção.
+APIs, integrações e sistemas que funcionam em produção.
 
-APIs, automação e infraestrutura — do desenvolvimento à operação.
-
-[Pernambuco, Brasil](#sobre-mim) · [LinkedIn](https://www.linkedin.com/in/jean-roque-579a48348/) · [GitHub](https://github.com/Jean-V0) · [E-mail](mailto:jeanvdsroqu@gmail.com)
-
-[Sobre](#sobre-mim) · [Stack](#stack) · [Projetos](#projetos-em-destaque) · [Formação](#formação-e-certificação) · [Executar o portfólio](#este-portfólio)
+[Portfólio](https://jeanroque0.github.io/) · [Experiência](https://jeanroque0.github.io/experiencia/) · [Projetos](https://jeanroque0.github.io/projetos/) · [LinkedIn](https://www.linkedin.com/in/jean-roque-579a48348/)
 
 </div>
 
 ---
 
-## Sobre mim
+## Olá! 👋
 
-Sou Jean, desenvolvedor Backend com experiência em **Node.js, TypeScript, PHP e Go**. Trabalho com APIs REST, integrações e bancos de dados, conectando decisões de arquitetura à performance e à confiabilidade dos sistemas em produção.
+Sou desenvolvedor Backend, de Pernambuco, com experiência em **Node.js, TypeScript, PHP e Go**. Minha trajetória passa por plataformas financeiras, varejo e delivery, trabalhando com APIs REST, integrações entre serviços, bancos de dados e evolução de aplicações em produção.
 
-Minha trajetória passa por **plataformas financeiras, varejo e delivery**. A experiência em DevOps e AWS complementa o desenvolvimento: infraestrutura como código, containers, pipelines de entrega e observabilidade fazem parte do meu trabalho.
+Meu foco profissional é **desenvolvimento Backend e Engenharia de Software**: implementar funcionalidades, organizar a arquitetura, investigar gargalos e construir sistemas de fácil manutenção.
 
-## Stack
+Minha experiência em DevOps e AWS complementa essa atuação. Ela me ajuda a considerar deploy, observabilidade e confiabilidade nas decisões de desenvolvimento.
 
-| Área                   | Tecnologias e práticas                                                 |
-| :--------------------- | :--------------------------------------------------------------------- |
-| **Backend**            | Node.js · TypeScript · PHP · Go · NestJS · Express · Laravel · Symfony |
-| **Dados**              | PostgreSQL · MySQL · Redis · TypeORM · Doctrine                        |
-| **Cloud & DevOps**     | AWS · Linux · Docker · Terraform · Terragrunt · Ansible · CI/CD        |
-| **Observabilidade**    | Prometheus · Grafana · CloudWatch · ELK · Datadog                      |
-| **Arquitetura**        | APIs REST · SOLID · Injeção de dependências · Design Patterns          |
-| **Estudos & projetos** | Rust · Selenium WebDriver · C++                                        |
+## Onde posso contribuir
 
-## Projetos em destaque
+- **APIs e integrações:** desenvolvimento e manutenção de serviços backend, integração com plataformas externas e implementação de regras de negócio.
+- **Arquitetura e qualidade:** organização do código com SOLID, injeção de dependências, orientação a objetos e Design Patterns.
+- **Dados e performance:** modelagem, consultas e investigação de gargalos em APIs e bancos de dados.
+- **Evolução de sistemas:** desenvolvimento de funcionalidades, troubleshooting e colaboração com produto, QA e equipes de engenharia.
 
-### 🎵 Swing Music — seu próprio music player
+## Stack principal
 
-Playbook Ansible para implantar o Swing Music em ambientes Linux. Automação do provisionamento e da configuração de serviços para uma aplicação de música **self-hosted**.
+| Área | Tecnologias |
+| :--- | :--- |
+| **Linguagens e runtime** | TypeScript · Node.js · PHP · Go |
+| **Frameworks** | NestJS · Express · Laravel · Symfony |
+| **Persistência** | PostgreSQL · MySQL · Redis · TypeORM · Doctrine |
+| **Práticas** | APIs REST · SOLID · Injeção de dependências · Clean Code · Git |
 
-`Ansible` `Linux` `Self-hosted`
+<details>
+<summary><strong>Experiência complementar e estudos</strong></summary>
 
-[Explorar repositório →](https://github.com/Jean-V0/swing-music-playbook)
+**Produção e entrega:** AWS, Docker, Linux, Terraform, Terragrunt, Ansible e CI/CD.
 
-### 🦀 Automação web com Rust e Selenium
+**Observabilidade:** CloudWatch, Prometheus, Grafana, ELK e Datadog.
 
-Estudo de controle programático de navegadores, gerenciamento de sessões e execução de fluxos web com Selenium WebDriver. Configuração por variáveis de ambiente e organização do projeto com Cargo.
+**Projetos e estudos:** Rust, C++, Python e automação de navegadores com Selenium.
 
-`Rust` `Selenium WebDriver` `Cargo` `ChromeDriver`
+</details>
 
-[Explorar repositório →](https://github.com/Jean-V0/twitch-selenium)
+## Experiência aplicada
 
-### ⚙️ C++ na prática — CFBCursos
+**MB Labs — Backend e DevOps**
 
-Exercícios dos fundamentos da linguagem a estruturas de dados, ponteiros, alocação dinâmica e organização de código em múltiplos arquivos.
+Desenvolvimento de uma plataforma bancária white-label, com contas digitais, cartões de loja, cashback e integrações bancárias. APIs com Node.js, TypeScript, Express, InversifyJS, TypeORM e PostgreSQL. Posteriormente, atuação na automação e sustentação de ambientes AWS.
 
-`C++` `Estruturas de dados` `Gerenciamento de memória`
+**Pigz — Desenvolvimento Backend e Engenharia de Software**
 
-[Explorar repositório →](https://github.com/Jean-V0/bfcursos-cpp)
+Evolução de sistemas de varejo e delivery, incluindo estoque, PDV e atendimento. Desenvolvimento com Go, Node.js, TypeScript e PHP, otimização de consultas e APIs e participação na modernização da infraestrutura AWS.
 
-<sub>Repositório de estudos. O curso não emitia certificado no período em que foi realizado.</sub>
+**A&3 Tecnologia — DevOps**
 
-## Experiência
+Sustentação de ambientes Linux e containers, automação operacional e organização de builds e imagens.
 
-| Empresa            | Trajetória                                      | Período             |
-| :----------------- | :---------------------------------------------- | :------------------ |
-| **A&3 Tecnologia** | DevOps Engineer Pleno                           | Fev — Ago 2026      |
-| **MB Labs**        | Backend Júnior → DevOps Engineer                | Jan 2024 — Nov 2025 |
-| **Pigz**           | Estágio Backend → Engenheiro de Software Júnior | Jan 2022 — Dez 2023 |
+[Ver cargos, períodos e detalhes no portfólio →](https://jeanroque0.github.io/experiencia/)
 
-## Formação e certificação
+## Projetos
 
-**AWS Certified Cloud Practitioner**  
-Amazon Web Services · Emitido em **dezembro de 2024** · Expira em **dezembro de 2027**
+### Swing Music — seu próprio music player
 
-[Ver credencial no Credly ↗](https://www.credly.com/badges/ff8b9070-08b2-48a2-9066-9368060827d2/linked_in_profile)
+Playbook Ansible para implantação automatizada do Swing Music em ambientes Linux, com provisionamento da aplicação e configuração de serviços para um music player self-hosted.
 
-**Full Cycle · Engenharia de Software** — Jan — Jun 2023  
-DevOps, backend, cloud e arquitetura de software. Conteúdos de mensageria, DDD, microsserviços, observabilidade e infraestrutura como código.
+**Categoria:** DevOps · **Stack:** Ansible, Linux
 
-**DIO · Linux e Java Experience** — Jun — Ago 2022  
-Estudos e atividades em Linux e Java. [Meu perfil na DIO ↗](https://web.dio.me/users/jeanvdsroque)
+[Ver repositório →](https://github.com/Jean-V0/swing-music-playbook) · [Explorar no portfólio →](https://jeanroque0.github.io/projetos/)
+
+Minha experiência com sistemas financeiros e de varejo está descrita na trajetória profissional.
+
+## Vamos trabalhar juntos?
+
+**Para recrutadores:** meu foco está em oportunidades de **Backend Developer, Backend Engineer e Software Engineer**, especialmente com Node.js, TypeScript, PHP/Laravel ou Go.
+
+**Para clientes:** posso contribuir com desenvolvimento e evolução de APIs, integrações entre sistemas e diagnóstico de performance. A conversa inicial serve para entender o problema e definir escopo, prazo e critérios de entrega.
+
+[Conheça os serviços →](https://jeanroque0.github.io/servicos/) · [Converse comigo no LinkedIn →](https://www.linkedin.com/in/jean-roque-579a48348/) · [Envie um e-mail →](mailto:jeanvdsroqu@gmail.com)
+
+<details>
+<summary><strong>Formação e certificação</strong></summary>
+
+- **Full Cycle — Engenharia de Software:** janeiro a junho de 2023. Arquitetura de software, backend, comunicação entre sistemas, cloud e DevOps.
+- **DIO — Linux e Java Experience:** junho a agosto de 2022. [Perfil na plataforma](https://web.dio.me/users/jeanvdsroque).
+- **AWS Certified Cloud Practitioner:** emitida em dezembro de 2024, com expiração em dezembro de 2027. [Validar credencial](https://www.credly.com/badges/ff8b9070-08b2-48a2-9066-9368060827d2/linked_in_profile).
+
+</details>
 
 ---
 
