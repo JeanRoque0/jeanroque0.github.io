@@ -2,7 +2,7 @@ import { test, expect } from "@playwright/test";
 import AxeBuilder from "@axe-core/playwright";
 import { readFile } from "node:fs/promises";
 
-const root = "/portfolio/";
+const root = "/";
 const routes = [
   "",
   "experiencia/",
@@ -156,7 +156,7 @@ test("sitemap, unique titles and static file coverage", async () => {
     const html = await readFile(`dist/${route}index.html`, "utf8");
     titles.add(html.match(/<title>(.*?)<\/title>/)![1]);
     expect(sitemap).toContain(
-      `https://jeanroque0.github.io/portfolio/${route}`,
+      `https://jeanroque0.github.io/${route}`,
     );
   }
   expect(titles.size).toBe(routes.length);

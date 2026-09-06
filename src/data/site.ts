@@ -1,5 +1,5 @@
 export const siteUrl =
-  import.meta.env.VITE_SITE_URL || "https://jeanroque0.github.io/portfolio/";
+  import.meta.env.VITE_SITE_URL || "https://jeanroque0.github.io/";
 export const pages = [
   {
     id: "sobre",
