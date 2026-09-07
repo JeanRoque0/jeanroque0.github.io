@@ -30,8 +30,8 @@ export function Overview() {
               Vamos tirar seu projeto do papel <b aria-hidden="true">↗</b>
             </h2>
             <p>
-              Veja como posso ajudar com APIs, integrações, evolução de sistemas
-              e diagnóstico de performance.
+              Veja como posso ajudar com desenvolvimento de APIs e integração
+              entre sistemas e serviços.
             </p>
           </a>
         </div>

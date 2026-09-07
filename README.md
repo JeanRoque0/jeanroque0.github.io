@@ -79,7 +79,7 @@ Minha experiência com sistemas financeiros e de varejo está descrita na trajet
 
 **Para recrutadores:** meu foco está em oportunidades de **Backend Developer, Backend Engineer e Software Engineer**, especialmente com Node.js, TypeScript, PHP/Laravel ou Go.
 
-**Para clientes:** posso contribuir com desenvolvimento e evolução de APIs, integrações entre sistemas e diagnóstico de performance. A conversa inicial serve para entender o problema e definir escopo, prazo e critérios de entrega.
+**Para clientes:** posso contribuir com desenvolvimento e evolução de APIs e integrações entre sistemas. A conversa inicial serve para entender o problema e definir escopo, prazo e critérios de entrega.
 
 [Conheça os serviços →](https://jeanroque0.github.io/servicos/) · [Converse comigo no LinkedIn →](https://www.linkedin.com/in/jean-roque-579a48348/) · [Envie um e-mail →](mailto:jeanvdsroqu@gmail.com)
 

@@ -12,7 +12,7 @@ export const profile = {
   about:
     "Atuei em plataformas financeiras, varejo e delivery, desenvolvendo funcionalidades, integrações e regras de negócio. Trabalho com arquitetura de software, bancos de dados e performance, em colaboração com produto, QA e equipes de engenharia.",
   email: "jeanvdsroqu@gmail.com",
-  github: "https://github.com/Jean-V0",
+  github: "https://github.com/JeanRoque0",
   linkedin: "https://www.linkedin.com/in/jean-roque-579a48348/",
   areas: [
     {

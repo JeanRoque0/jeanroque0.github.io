@@ -35,7 +35,7 @@ export const pages = [
     icon: "◇",
     title: "Serviços de Backend, APIs e integrações — Jean Roque",
     description:
-      "Desenvolvimento de APIs e integrações, evolução de sistemas backend e diagnóstico de performance. Converse com Jean Roque sobre seu projeto.",
+      "Desenvolvimento e evolução de APIs backend e integração entre sistemas e serviços. Converse com Jean Roque sobre seu projeto.",
   },
   {
     id: "formacao",
