@@ -6,9 +6,9 @@ export const pages = [
     path: "",
     label: "Visão geral",
     icon: "⌂",
-    title: "Jean Roque — Backend Developer & Software Engineer",
+    title: "Jean Roque — DevOps Engineer Pleno | AWS e Terraform",
     description:
-      "Desenvolvedor Backend com experiência em Node.js, TypeScript, PHP, Go e AWS. Conheça a trajetória, os projetos e os serviços de Jean Roque.",
+      "DevOps Engineer Pleno com AWS, Terraform, Terragrunt, Ansible, Docker, Linux, CI/CD e observabilidade. Conheça a trajetória e os projetos de Jean Roque.",
   },
   {
     id: "experiencia",
@@ -17,7 +17,7 @@ export const pages = [
     icon: "↗",
     title: "Experiência profissional — Jean Roque",
     description:
-      "Trajetória de Jean Roque na Pigz, MB Labs e A&3 Tecnologia: desenvolvimento backend, plataformas financeiras, varejo, delivery e DevOps.",
+      "DevOps na A&3 Tecnologia e MB Labs, modernização AWS na Pigz e base em backend. Conheça os cargos, períodos e resultados relatados por Jean Roque.",
   },
   {
     id: "projetos",
@@ -26,16 +26,16 @@ export const pages = [
     icon: "⌘",
     title: "Projetos — Jean Roque",
     description:
-      "Conheça o Swing Music Playbook de Jean Roque: implantação automatizada de um music player self-hosted em Linux com Ansible.",
+      "Swing Music na AWS: EC2, S3, IAM, Terraform, Ansible, Docker e Linux. Conheça o projeto de automação de implantação de Jean Roque.",
   },
   {
     id: "servicos",
     path: "servicos/",
     label: "Serviços",
     icon: "◇",
-    title: "Serviços de Backend, APIs e integrações — Jean Roque",
+    title: "Serviços de DevOps, AWS e automação — Jean Roque",
     description:
-      "Desenvolvimento e evolução de APIs backend e integração entre sistemas e serviços. Converse com Jean Roque sobre seu projeto.",
+      "Infraestrutura AWS, automação com Terraform e Ansible, containers Docker, CI/CD e observabilidade. Converse com Jean Roque sobre seu ambiente.",
   },
   {
     id: "formacao",
@@ -53,7 +53,7 @@ export const pages = [
     icon: "↗",
     title: "Contato para oportunidades e projetos — Jean Roque",
     description:
-      "Entre em contato com Jean Roque para oportunidades de Backend e Engenharia de Software ou projetos freelance. E-mail, LinkedIn e GitHub.",
+      "Entre em contato com Jean Roque para oportunidades de DevOps Engineer Pleno e projetos de AWS, CI/CD e automação. E-mail, LinkedIn e GitHub.",
   },
 ] as const;
 export type PageId = (typeof pages)[number]["id"];

@@ -12,12 +12,13 @@ export function Experience() {
         <div className="section-heading">
           <p className="eyebrow">TRAJETÓRIA PROFISSIONAL</p>
           <h1 id="experience-title" className="page-title">
-            Código, produto
+            Infraestrutura, entrega
             <br />e operação.
           </h1>
           <p>
-            Uma trajetória que passa por desenvolvimento backend, engenharia de
-            software e DevOps, com participação em todo o ciclo de entrega.
+            Atuação em DevOps na A&3 Tecnologia e MB Labs, apoiada por uma base
+            em desenvolvimento backend e engenharia de software. Cargos e
+            períodos refletem minha trajetória profissional.
           </p>
         </div>
         <div className="timeline">

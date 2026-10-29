@@ -44,6 +44,16 @@ for (const route of routes) {
     );
     expect(person["@type"]).toBe("Person");
     expect(person.name).toBe("Jean Roque");
+    expect(person.jobTitle).toBe("DevOps Engineer Pleno");
+    expect(person.knowsAbout).toEqual(expect.arrayContaining([
+      "AWS", "Terraform", "Terragrunt", "Ansible", "Docker", "Linux", "CI/CD", "Observabilidade",
+    ]));
+    await expect(page.locator('meta[property="og:site_name"]')).toHaveAttribute(
+      "content", "Jean Roque — DevOps Engineer Pleno",
+    );
+    await expect(page.locator('meta[property="og:image:alt"]')).toHaveAttribute(
+      "content", /DevOps Engineer Pleno/,
+    );
     const socialImage = await page
       .locator('meta[property="og:image"]')
       .getAttribute("content");
@@ -167,4 +177,31 @@ test("sitemap, unique titles and static file coverage", async () => {
   }
   expect(titles.size).toBe(routes.length);
   expect(await readFile("dist/404.html", "utf8")).toContain("noindex");
+});
+
+
+test("DevOps positioning and career evidence remain in static HTML", async ({ request }) => {
+  const home = await (await request.get("/")).text();
+  expect(home).toContain("DevOps em produção.");
+  expect(home).toContain("Base em desenvolvimento backend");
+  expect(home).not.toContain("Backend é meu foco");
+  const experience = await (await request.get("/experiencia/")).text();
+  for (const evidence of [
+    "A&amp;3 Tecnologia", "DevOps Engineer Pleno", "Fev 2026 — Ago 2026",
+    "DevOps Engineer", "Jan 2025 — Nov 2025", "Desenvolvedor Backend Júnior",
+    "Jan 2024 — Dez 2024", "Engenheiro de Software Júnior", "Jan 2023 — Dez 2023",
+    "Estágio em Desenvolvimento Backend", "Jan 2022 — Dez 2022",
+    "cerca de 60%", "4 s para 500 ms",
+  ]) expect(experience).toContain(evidence);
+  const projects = await (await request.get("/projetos/")).text();
+  for (const technology of ["EC2", "S3", "IAM", "Terraform", "Ansible", "Docker", "Linux"])
+    expect(projects).toContain(technology);
+  const education = await (await request.get("/formacao/")).text();
+  expect(education).toContain("AWS Certified Cloud Practitioner");
+  expect(education).toContain("ff8b9070-08b2-48a2-9066-9368060827d2");
+  const contact = await (await request.get("/contato/")).text();
+  expect(contact).toContain("oportunidades de DevOps Engineer Pleno");
+  const services = await (await request.get("/servicos/")).text();
+  for (const service of ["Infraestrutura AWS e automação", "Containers e CI/CD", "Observabilidade e diagnóstico"])
+    expect(services).toContain(service);
 });

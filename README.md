@@ -2,9 +2,9 @@
 
 # Jean Roque
 
-**Backend Developer · Software Engineer**
+**DevOps Engineer Pleno · AWS · Infraestrutura como código**
 
-APIs, integrações e sistemas que funcionam em produção.
+Automação, observabilidade e operação de aplicações em produção.
 
 [Portfólio](https://jeanroque0.github.io/) · [Experiência](https://jeanroque0.github.io/experiencia/) · [Projetos](https://jeanroque0.github.io/projetos/) · [LinkedIn](https://www.linkedin.com/in/jean-roque-579a48348/)
 
@@ -14,52 +14,44 @@ APIs, integrações e sistemas que funcionam em produção.
 
 ## Olá! 👋
 
-Sou desenvolvedor Backend, de Pernambuco, com experiência em **Node.js, TypeScript, PHP e Go**. Minha trajetória passa por plataformas financeiras, varejo e delivery, trabalhando com APIs REST, integrações entre serviços, bancos de dados e evolução de aplicações em produção.
+Sou **DevOps Engineer Pleno**, de Pernambuco, com experiência em **AWS, Terraform, Terragrunt, Ansible, Docker, Linux, CI/CD e observabilidade**. Atuo com provisionamento, automação de configuração, sustentação de ambientes e investigação de falhas em produção.
 
-Meu foco profissional é **desenvolvimento Backend e Engenharia de Software**: implementar funcionalidades, organizar a arquitetura, investigar gargalos e construir sistemas de fácil manutenção.
-
-Minha experiência em DevOps e AWS complementa essa atuação. Ela me ajuda a considerar deploy, observabilidade e confiabilidade nas decisões de desenvolvimento.
+Minha base em desenvolvimento backend, em plataformas financeiras, varejo e delivery, apoia a colaboração com desenvolvimento e o diagnóstico entre aplicação e infraestrutura.
 
 ## Onde posso contribuir
 
-- **APIs e integrações:** desenvolvimento e manutenção de serviços backend, integração com plataformas externas e implementação de regras de negócio.
-- **Arquitetura e qualidade:** organização do código com SOLID, injeção de dependências, orientação a objetos e Design Patterns.
-- **Dados e performance:** modelagem, consultas e investigação de gargalos em APIs e bancos de dados.
-- **Evolução de sistemas:** desenvolvimento de funcionalidades, troubleshooting e colaboração com produto, QA e equipes de engenharia.
+- **Infraestrutura AWS:** provisionamento e evolução de ambientes com infraestrutura como código.
+- **Automação e entrega:** configuração com Ansible, builds e imagens Docker e pipelines de CI/CD.
+- **Operação em produção:** sustentação Linux, troubleshooting, gestão de incidentes e observabilidade.
+- **Performance:** investigação de gargalos em aplicações, consultas e infraestrutura, com base em métricas e logs.
 
 ## Stack principal
 
 | Área | Tecnologias |
 | :--- | :--- |
-| **Linguagens e runtime** | TypeScript · Node.js · PHP · Go |
-| **Frameworks** | NestJS · Express · Laravel · Symfony |
-| **Persistência** | PostgreSQL · MySQL · Redis · TypeORM · Doctrine |
-| **Práticas** | APIs REST · SOLID · Injeção de dependências · Clean Code · Git |
-
-<details>
-<summary><strong>Experiência complementar e estudos</strong></summary>
-
-**Produção e entrega:** AWS, Docker, Linux, Terraform, Terragrunt, Ansible e CI/CD.
-
-**Observabilidade:** CloudWatch, Prometheus, Grafana, ELK e Datadog.
-
-**Projetos e estudos:** Rust, C++, Python e automação de navegadores com Selenium.
-
-</details>
+| **Cloud e infraestrutura como código** | AWS · Terraform · Terragrunt |
+| **Configuração e containers** | Ansible · Linux · Docker · Docker Swarm · Traefik |
+| **Entrega** | CI/CD · Git · Harbor · Docker Hub |
+| **Observabilidade** | CloudWatch · Prometheus · Grafana · Elastic Stack |
+| **Base em backend** | Node.js · TypeScript · PHP · Go · PostgreSQL · MySQL · Redis |
 
 ## Experiência aplicada
 
-**MB Labs — Backend e DevOps**
+**A&3 Tecnologia — DevOps Engineer Pleno · fevereiro a agosto de 2026**
 
-Desenvolvimento de uma plataforma bancária white-label, com contas digitais, cartões de loja, cashback e integrações bancárias. APIs com Node.js, TypeScript, Express, InversifyJS, TypeORM e PostgreSQL. Posteriormente, atuação na automação e sustentação de ambientes AWS.
+Administração e sustentação de ambientes Linux e containers. Operação de Docker Swarm com Portainer e Traefik, refatoração de builds, organização de imagens com Harbor e Docker Hub e automação com Ansible.
 
-**Pigz — Desenvolvimento Backend e Engenharia de Software**
+**MB Labs — DevOps Engineer · janeiro a novembro de 2025**
 
-Evolução de sistemas de varejo e delivery, incluindo estoque, PDV e atendimento. Desenvolvimento com Go, Node.js, TypeScript e PHP, otimização de consultas e APIs e participação na modernização da infraestrutura AWS.
+Sustentação e evolução de ambientes AWS, módulos reutilizáveis com Terraform e Terragrunt, configuração com Ansible, pipelines de CI/CD, gestão de incidentes e observabilidade com Prometheus, Grafana e Elastic Stack.
 
-**A&3 Tecnologia — DevOps**
+Antes, como **Desenvolvedor Backend Júnior · janeiro a dezembro de 2024**, atuei em uma plataforma bancária white-label com Node.js, TypeScript, Express, InversifyJS, TypeORM e PostgreSQL.
 
-Sustentação de ambientes Linux e containers, automação operacional e organização de builds e imagens.
+**Pigz — Engenheiro de Software Júnior · janeiro a dezembro de 2023**
+
+Desenvolvimento de sistemas de varejo e delivery, otimização de consultas e APIs e participação na modernização da infraestrutura AWS, conteinerização e automação de builds e deploys. Resultados relatados nesse trabalho: **redução de cerca de 60% nos custos AWS e melhora de performance de 4 s para 500 ms nos fluxos otimizados**. São resultados dessa experiência, sem atribuição exclusiva ou promessa de ganhos para outros ambientes.
+
+Antes, como **Estágio em Desenvolvimento Backend · janeiro a dezembro de 2022**, trabalhei com PHP e Symfony e apoiei a configuração de infraestrutura AWS.
 
 [Ver cargos, períodos e detalhes no portfólio →](https://jeanroque0.github.io/experiencia/)
 
@@ -67,19 +59,17 @@ Sustentação de ambientes Linux e containers, automação operacional e organiz
 
 ### Swing Music — seu próprio music player
 
-Playbook Ansible para implantação automatizada do Swing Music em ambientes Linux, com provisionamento da aplicação e configuração de serviços para um music player self-hosted.
+Implantação de um music player self-hosted na **AWS com EC2, S3 e IAM**, infraestrutura como código com **Terraform** e configuração automatizada com **Ansible e Docker em Linux**.
 
-**Categoria:** DevOps · **Stack:** Ansible, Linux
+**Categoria:** DevOps · **Stack:** AWS, EC2, S3, IAM, Terraform, Ansible, Docker, Linux
 
 [Ver repositório →](https://github.com/Jean-V0/swing-music-playbook) · [Explorar no portfólio →](https://jeanroque0.github.io/projetos/)
 
-Minha experiência com sistemas financeiros e de varejo está descrita na trajetória profissional.
-
 ## Vamos trabalhar juntos?
 
-**Para recrutadores:** meu foco está em oportunidades de **Backend Developer, Backend Engineer e Software Engineer**, especialmente com Node.js, TypeScript, PHP/Laravel ou Go.
+**Para recrutadores:** meu foco está em oportunidades de **DevOps Engineer Pleno**, com AWS, infraestrutura como código, automação, CI/CD, observabilidade e operação em produção.
 
-**Para clientes:** posso contribuir com desenvolvimento e evolução de APIs e integrações entre sistemas. A conversa inicial serve para entender o problema e definir escopo, prazo e critérios de entrega.
+**Para clientes:** posso contribuir com infraestrutura AWS, automação de ambientes e deploys, containers e observabilidade. A conversa inicial serve para entender o problema e definir escopo, prazo e critérios de entrega.
 
 [Conheça os serviços →](https://jeanroque0.github.io/servicos/) · [Converse comigo no LinkedIn →](https://www.linkedin.com/in/jean-roque-579a48348/) · [Envie um e-mail →](mailto:jeanvdsroqu@gmail.com)
 

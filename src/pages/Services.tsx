@@ -14,8 +14,8 @@ export function Services() {
           Como posso ajudar seu projeto.
         </h1>
         <p className="section-intro">
-          O ponto de partida é entender seu problema e definir uma entrega com
-          escopo claro.
+          Infraestrutura, deploy e operação: o ponto de partida é entender seu
+          ambiente e definir uma entrega com escopo claro.
         </p>
         <div className="service-list">
           {services.map((service, index) => (

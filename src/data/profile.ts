@@ -5,49 +5,36 @@ export const profile = {
   name: "Jean Roque",
   initials: "JR",
   photo: profilePhoto,
-  role: "Backend Developer · Software Engineer",
+  role: "DevOps Engineer Pleno",
   location: "Pernambuco, Brasil",
   description:
-    "Desenvolvo APIs, integrações e sistemas com Node.js, TypeScript, PHP e Go. Meu foco é Backend e Engenharia de Software: implementar funcionalidades, organizar a arquitetura e evoluir aplicações em produção.",
+    "Atuo com infraestrutura AWS, automação e operação de aplicações em produção. Meu foco é DevOps: Terraform, Terragrunt, Ansible, Docker, Linux, CI/CD e observabilidade.",
   about:
-    "Atuei em plataformas financeiras, varejo e delivery, desenvolvendo funcionalidades, integrações e regras de negócio. Trabalho com arquitetura de software, bancos de dados e performance, em colaboração com produto, QA e equipes de engenharia.",
+    "Minha trajetória conecta desenvolvimento backend à sustentação de ambientes, infraestrutura como código e entrega contínua. Atuei em plataformas financeiras, varejo e delivery, colaborando com desenvolvimento, lideranças técnicas e clientes na evolução de aplicações em produção.",
   email: "jeanvdsroqu@gmail.com",
   github: "https://github.com/JeanRoque0",
   linkedin: "https://www.linkedin.com/in/jean-roque-579a48348/",
   areas: [
     {
       number: "01",
-      title: "Backend & APIs",
+      title: "AWS & infraestrutura como código",
       description:
-        "APIs REST, integrações financeiras e sistemas de varejo. Código organizado com SOLID, injeção de dependências e atenção à manutenibilidade.",
-      tags: [
-        "Node.js",
-        "TypeScript",
-        "PHP",
-        "Go",
-        "NestJS",
-        "Laravel",
-        "Symfony",
-      ],
+        "Provisionamento e evolução de ambientes AWS com módulos reutilizáveis, automação de configuração e infraestrutura versionada.",
+      tags: ["AWS", "Terraform", "Terragrunt", "Ansible"],
     },
     {
       number: "02",
-      title: "Arquitetura & qualidade",
+      title: "Containers & entrega contínua",
       description:
-        "Organização e evolução de sistemas com atenção à clareza do código, separação de responsabilidades e facilidade de manutenção.",
-      tags: [
-        "SOLID",
-        "Injeção de dependências",
-        "Design Patterns",
-        "Clean Code",
-      ],
+        "Sustentação de ambientes Linux e Docker, organização de builds e imagens e automação de pipelines de CI/CD.",
+      tags: ["Linux", "Docker", "Docker Swarm", "CI/CD", "Traefik"],
     },
     {
       number: "03",
-      title: "Dados & performance",
+      title: "Observabilidade & operação",
       description:
-        "Modelagem de dados, otimização de consultas e investigação de gargalos em APIs para apoiar a evolução das aplicações.",
-      tags: ["PostgreSQL", "MySQL", "Redis", "TypeORM", "Doctrine"],
+        "Investigação de falhas, gestão de incidentes e análise de métricas e logs para apoiar a operação de aplicações em produção.",
+      tags: ["CloudWatch", "Prometheus", "Grafana", "Elastic Stack"],
     },
   ],
 };
@@ -83,7 +70,7 @@ export const experiences = [
           "Provisionamento de infraestrutura e módulos reutilizáveis com Terraform, Terragrunt e Ansible.",
           "Pipelines de CI/CD, gestão de incidentes e observabilidade com Prometheus, Grafana e Elastic Stack.",
         ],
-        tags: ["AWS", "Terraform", "CI/CD", "Observabilidade"],
+        tags: ["AWS", "Terraform", "Terragrunt", "Ansible", "CI/CD", "Observabilidade"],
       },
       {
         role: "Desenvolvedor Backend Júnior",
@@ -110,6 +97,7 @@ export const experiences = [
         highlights: [
           "Participação na modernização da infraestrutura AWS, conteinerização com Docker e automação de builds e deploys.",
           "Otimização de consultas, APIs e regras de negócio, com desenvolvimento em Go, Node.js, TypeScript e PHP.",
+          "Resultados relatados nesse trabalho: redução de cerca de 60% nos custos AWS e melhora de performance de 4 s para 500 ms nos fluxos otimizados.",
         ],
         tags: ["Go", "PHP", "Node.js", "AWS", "Docker"],
       },
@@ -197,12 +185,12 @@ export const projects: Project[] = [
     category: "DevOps",
     period: "Jul 2026 — o momento",
     description:
-      "Playbook Ansible para implantação automatizada do Swing Music em Linux: um music player self-hosted com foco em automação e configuração de serviços.",
+      "Implantação do Swing Music na AWS com EC2, S3 e IAM, infraestrutura como código com Terraform e configuração automatizada com Ansible e Docker em Linux.",
     highlights: [
-      "Provisionamento da aplicação com Ansible.",
-      "Padronização da implantação e configuração de serviços em Linux.",
+      "Provisionamento de EC2 e configuração de acesso IAM com Terraform; uso de S3 para a biblioteca de músicas.",
+      "Configuração de Linux e implantação da aplicação com Ansible e Docker.",
     ],
-    tags: ["Ansible", "Linux", "Self-hosted"],
+    tags: ["AWS", "EC2", "S3", "IAM", "Terraform", "Ansible", "Docker", "Linux"],
     url: "https://github.com/Jean-V0/swing-music-playbook",
   },
 ];

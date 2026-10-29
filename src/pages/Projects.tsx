@@ -24,7 +24,7 @@ export function Projects() {
             <div>
               <p className="eyebrow">PROJETOS</p>
               <h1 id="projects-title" className="page-title">
-                Engenharia na prática.
+                DevOps na prática.
               </h1>
             </div>
             <div className="filters" role="group" aria-label="Filtrar projetos">

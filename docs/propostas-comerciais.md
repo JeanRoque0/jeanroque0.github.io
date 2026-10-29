@@ -4,9 +4,9 @@ Estas são propostas para a próxima evolução do portfólio. Não representam 
 
 ## Posicionamento recomendado
 
-**Backend Developer com experiência em produção e DevOps.**
+**DevOps Engineer Pleno com base em desenvolvimento backend.**
 
-A trajetória em produtos financeiros, varejo e delivery dá contexto às competências. AWS, automação e observabilidade explicam como Jean acompanha o software além da implementação.
+A trajetória em produtos financeiros, varejo e delivery dá contexto à atuação em AWS, infraestrutura como código, automação e observabilidade. Backend permanece como base para diagnóstico e colaboração com desenvolvimento.
 
 Para recrutadores, a pergunta a responder é: “Em quais problemas e equipes esse profissional pode contribuir?”. Para clientes: “Ele entende meu problema, o que será entregue e como vamos trabalhar?”.
 
@@ -17,7 +17,7 @@ Para recrutadores, a pergunta a responder é: “Em quais problemas e equipes es
 3. **Resumo objetivo por cargo.** Tecnologias, escopo da atuação e exemplo concreto de problema resolvido. Manter cargos anteriores como no currículo, sem reclassificar senioridade.
 4. **Informações de contratação confirmadas.** Modalidade desejada, localização, disponibilidade e preferência CLT/PJ. Só apresentar depois da confirmação do Jean.
 
-Os resultados de redução de custos e latência relatados no currículo podem fortalecer os estudos de caso, mas ainda precisam de contexto e confirmação: qual ambiente, qual período, como foi medido e qual foi a contribuição pessoal.
+O site apresenta os resultados relatados na Pigz: cerca de 60% de redução de custos AWS e performance de 4 s para 500 ms nos fluxos otimizados. Um estudo de caso mais detalhado ainda precisa documentar ambiente, período, método de medição e contribuição pessoal; esses resultados não são promessa comercial.
 
 ## Prioridade 2 — Serviços com entregas claras
 
@@ -41,7 +41,7 @@ Os resultados de redução de custos e latência relatados no currículo podem f
 
 **Limites a combinar:** provedor, quantidade de ambientes, acessos, banco de dados e responsabilidades por backup. Custos de infraestrutura e operação contínua são tratados separadamente.
 
-**Evidência já disponível:** o projeto Swing Music mostra automação com Ansible e Linux.
+**Evidência já disponível:** o projeto Swing Music apresenta AWS (EC2, S3 e IAM), Terraform, Ansible, Docker e Linux.
 
 ### Diagnóstico de performance
 
@@ -73,7 +73,7 @@ Evitar apresentar exercícios como entregas comerciais. Projetos demonstrativos 
 
 ## Ordem sugerida
 
-1. Validar o foco profissional, disponibilidade e serviços que Jean quer assumir.
+1. Manter o foco em DevOps e confirmar disponibilidade e condições de contratação antes de publicá-las.
 2. Preparar currículo curto e um estudo de caso com evidências.
 3. Refinar as três ofertas de serviço com limites e critérios de aceite.
 4. Implementar briefing e perguntas frequentes.

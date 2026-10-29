@@ -29,8 +29,8 @@ export function Contact() {
             <span>Vamos conversar?</span>
           </h1>
           <p>
-            Para conversar sobre backend, engenharia de software e os desafios
-            de colocar sistemas em produção.
+            Para oportunidades de DevOps Engineer Pleno e projetos de AWS,
+            automação, CI/CD, observabilidade e operação em produção.
           </p>
         </div>
         <div className="contact-links">
